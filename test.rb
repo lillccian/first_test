@@ -1,7 +1,8 @@
 # @param {Integer[]} nums
 # @return {Integer}
 def rob(nums)
-	b = 2
+	b = 11
+	
     p , n = 0 , 0
     nums.each do |nw|
         p , n =
